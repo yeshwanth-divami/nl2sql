@@ -26,6 +26,8 @@ dependencies = [
   "mkdocs-minify-plugin>=0.8.0",
   "mkdocs-git-revision-date-localized-plugin>=1.4.7",
   "pymdown-extensions>=10.16.1",
+  "sqlalchemy>=2.0.43",
+  "torch-snippets>=0.558",
 ]
 
 [project.optional-dependencies]

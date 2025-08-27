@@ -7,7 +7,8 @@ __all__ = ['DbSchemaExplorer']
 from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.exc import SQLAlchemyError
 import datetime
-import os
+import re
+from torch_snippets import track2
 
 # %% ../../../nbs/1-discover.ipynb 3
 class DbSchemaExplorer:
