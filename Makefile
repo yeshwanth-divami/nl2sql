@@ -49,7 +49,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint/flake8: ## check style with flake8
-	flake8 nl2sql tests
+	flake8 {{ cookiecutter.project_slug }} tests
 
 
 lint: lint/flake8 ## check style
@@ -61,7 +61,7 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source nl2sql -m pytest
+	coverage run --source {{ cookiecutter.project_slug }} -m pytest
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
@@ -90,3 +90,4 @@ setup:
 	git init
 	git add .
 	git commit -m "Initial commit"
+	uv sync

@@ -1,10 +1,3 @@
----
-description: "Instruction template for generating a ‘happy_flow.md’ document with clear prose and diagrams from project-level Markdown inputs."
-globs:
-  - "create-happy-flow.md"
-alwaysApply: false
----
-
 # Rule: Generating a Happy Flow Document
 
 ## 👤 Copilot Persona: Senior Systems Designer
