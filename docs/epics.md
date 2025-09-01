@@ -461,13 +461,13 @@ graph TD
 **Target**: Deliver core functionality for internal pilot with basic user interface
 
 **Priority Epics**:
-- EP-002: SQL Connection & Schema Discovery
-- EP-001: Natural Language to SQL Translation (with multi-agent setup)
-- EP-003: Safe Query Execution Engine
-- EP-004: Results Presentation & Chart Generation
-- EP-005: Python SDK & Developer Experience
-- EP-013: Agent Evaluation & Quality Assurance (basic framework)
-- EP-014: User Interface & Experience
+- EP-002: SQL Connection & Schema Discovery (L)
+- EP-001: Natural Language to SQL Translation (with multi-agent setup) (XL)
+- EP-003: Safe Query Execution Engine (L)
+- EP-004: Results Presentation & Chart Generation (M)
+- EP-005: Python SDK & Developer Experience (M)
+- EP-013: Agent Evaluation & Quality Assurance (basic framework) (M)
+- EP-014: User Interface & Experience (L)
 
 **Success Criteria**: Meet OBJ-001 (MVP delivery with ≥5 pilot users) and OBJ-005 (user adoption)
 
@@ -475,11 +475,11 @@ graph TD
 **Target**: Production-ready security and compliance
 
 **Priority Epics**:
-- EP-006: Authentication & Authorization
-- EP-007: Audit Trail & Compliance
-- EP-008: Risk Assessment & Query Approval
-- EP-010: Monitoring & Observability (basic)
-- EP-009: Performance Optimization & Query Caching (query2sql cache)
+- EP-006: Authentication & Authorization (L)
+- EP-007: Audit Trail & Compliance (M)
+- EP-008: Risk Assessment & Query Approval (L)
+- EP-010: Monitoring & Observability (basic) (M)
+- EP-009: Performance Optimization & Query Caching (query2sql cache) (M)
 
 **Success Criteria**: Meet OBJ-002 and OBJ-004 (safety and governance targets)
 
@@ -487,12 +487,12 @@ graph TD
 **Target**: Production performance and operational readiness
 
 **Priority Epics**:
-- EP-015: Backend Integration & API Management
-- EP-009: Performance Optimization & Query Caching (advanced features)
-- EP-010: Monitoring & Observability (advanced)
-- EP-011: Administration Console
-- EP-012: Cost Management & Resource Controls
-- EP-013: Agent Evaluation & Quality Assurance (comprehensive)
+- EP-015: Backend Integration & API Management (M)
+- EP-009: Performance Optimization & Query Caching (advanced features) (M)
+- EP-010: Monitoring & Observability (advanced) (M)
+- EP-011: Administration Console (L)
+- EP-012: Cost Management & Resource Controls (S)
+- EP-013: Agent Evaluation & Quality Assurance (comprehensive) (M)
 
 **Success Criteria**: Meet OBJ-003 (performance targets) and scale for broader adoption
 
