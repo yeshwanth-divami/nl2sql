@@ -14,9 +14,9 @@ This document outlines the major epics for the NL2SQL project, organized by them
 - **Phase 1-3 implementation** ensures systematic delivery
 
 **Priority Mapping:**
-- **Phase 1 (MVP)**: OBJ-001 primary focus
+- **Phase 1 (MVP)**: OBJ-001, OBJ-005 primary focus (core functionality + user experience)
 - **Phase 2 (Security)**: OBJ-002, OBJ-004 primary focus  
-- **Phase 3 (Scale)**: OBJ-003, OBJ-005 primary focus
+- **Phase 3 (Scale)**: OBJ-003 primary focus (performance and operational scale)
 
 This traceability ensures that every epic contributes directly to project success and that all requirements are captured and planned for implementation.
 
@@ -458,7 +458,7 @@ graph TD
 ## Implementation Phases
 
 ### Phase 1: MVP Foundation (Q4 2025)
-**Target**: Deliver core functionality for internal pilot
+**Target**: Deliver core functionality for internal pilot with basic user interface
 
 **Priority Epics**:
 - EP-002: SQL Connection & Schema Discovery
@@ -467,8 +467,9 @@ graph TD
 - EP-004: Results Presentation & Chart Generation
 - EP-005: Python SDK & Developer Experience
 - EP-013: Agent Evaluation & Quality Assurance (basic framework)
+- EP-014: User Interface & Experience
 
-**Success Criteria**: Meet OBJ-001 (MVP delivery with ≥5 pilot users)
+**Success Criteria**: Meet OBJ-001 (MVP delivery with ≥5 pilot users) and OBJ-005 (user adoption)
 
 ### Phase 2: Security & Governance (Q4 2025 - Q1 2026)
 **Target**: Production-ready security and compliance
@@ -482,11 +483,10 @@ graph TD
 
 **Success Criteria**: Meet OBJ-002 and OBJ-004 (safety and governance targets)
 
-### Phase 3: User Experience & Scale (Q1 2026)
-**Target**: Production performance and user-ready interfaces
+### Phase 3: Performance & Scale (Q1 2026)
+**Target**: Production performance and operational readiness
 
 **Priority Epics**:
-- EP-014: User Interface & Experience
 - EP-015: Backend Integration & API Management
 - EP-009: Performance Optimization & Query Caching (advanced features)
 - EP-010: Monitoring & Observability (advanced)
@@ -494,7 +494,7 @@ graph TD
 - EP-012: Cost Management & Resource Controls
 - EP-013: Agent Evaluation & Quality Assurance (comprehensive)
 
-**Success Criteria**: Meet OBJ-003 and OBJ-005 (performance and adoption targets)
+**Success Criteria**: Meet OBJ-003 (performance targets) and scale for broader adoption
 
 ---
 
